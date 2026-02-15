@@ -1,31 +1,47 @@
-# A simple example of a full multiplayer game web app built with React.js and Node.js stack
+# X Tic Tac Toe
 
-Major libraries used on front end:
-- react
-- webpack
-- babel
-- react-router
-- ampersand
-- sass
-- jest
+A multiplayer Tic Tac Toe game built with React.js, Node.js, and Socket.io. Play with friends in real time over the web.
 
-Major libraries used on server:
-- node.js
-- socket.io
-- express
+## Live Demo
 
-### Folder structure:
-- **WS** - server side and compiled front end
-- **react_ws_src** - React development source and testing
+**[Play online →](https://x-ttt-fual.onrender.com/)**
+
+https://x-ttt-fual.onrender.com/
+
+## Tech Stack
+
+**Frontend**
+- React
+- React Router
+- Webpack & Babel
+- Ampersand
+- Sass
+- Jest
+
+**Backend**
+- Node.js
+- Express
+- Socket.io
+
+## Project Structure
+
+| Folder | Description |
+|--------|-------------|
+| **WS** | Server code and compiled frontend |
+| **react_ws_src** | React source code and tests |
+
+## Getting Started
+
+```bash
+# Build the frontend
+npm run build
+
+# Start the server
+npm start
+```
+
+Server runs at `http://localhost:3000` (or your configured port).
 
 ---
 
-### View it online at 
-https://x-ttt.herokuapp.com/
-
-#### Configurable with external XML file - 
-https://x-ttt.herokuapp.com/ws_conf.xml
-
----
-
-##For demonstration purposes only.
+*For demonstration purposes only.*
